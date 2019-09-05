@@ -10,8 +10,8 @@
     tags:
       - osp.smoke
 
-  - debug:
-      var: openstack_info
+  # - debug:
+  #     var: openstack_info
 
   - name: Curl website
     uri:
@@ -24,8 +24,8 @@
     tags:
       - osp.smoke
 
-  - debug:
-      var: webpage
+  # - debug:
+  #     var: webpage
 
   - name: Fail if 'Ansible has done its job' is not in the page content
     fail:
