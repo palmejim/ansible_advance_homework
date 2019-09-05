@@ -6,8 +6,8 @@
     region_name: RegionOne
   register: result
 
- - debug:
-     var: result
+- debug:
+    var: result
 
 - name: Add host
   add_host:
