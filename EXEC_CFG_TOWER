@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -x 
-
 TOWER_GUID=6fdf
 OSP_GUID=5075
 OPENTLC_LOGIN=dpalmer-au1.ibm.com
