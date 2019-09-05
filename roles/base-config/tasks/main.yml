@@ -7,4 +7,5 @@
     mode: 0644
     owner: root
     group: root
+#  when: <conditional - only run when NOT on QA OSPß
     
