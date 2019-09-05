@@ -6,6 +6,10 @@
     region_name: RegionOne
   register: result
 
+- debug: 
+    var: item
+  with_items: "{{ result }}"
+
 # tasks file for osp.servers
 - name: Remove a server instance
   os_server:
