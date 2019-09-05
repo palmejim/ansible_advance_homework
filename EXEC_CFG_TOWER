@@ -3,7 +3,7 @@
 TOWER_GUID=6fdf
 OSP_GUID=5075
 OPENTLC_LOGIN=dpalmer-au1.ibm.com
-OPENTLC_PASSWORD='sc8eL;pPtc'
+OPENTLC_PASSWORD=DAepZV8p6DLf
 GITHUB_REPO=https://github.com/palmejim/ansible_advance_homework
 JQ_REPO_BASE=http://www.opentlc.com/download/ansible_bootcamp
 REGION=us-east-1
