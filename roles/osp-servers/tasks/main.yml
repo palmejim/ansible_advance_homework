@@ -32,11 +32,11 @@
     network: ext_network
     wait: true
     timeout: 180
+  register: instancefloatingip12 
   with_dict: "{{ osp_servers }}"
-  register: instancefloatingipß  
-
+ 
 - debug: 
-    var: instancefloatingip
+    var: instancefloatingip12
 
 - name: Wait for server to be available
   wait_for:
