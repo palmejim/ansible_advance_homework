@@ -1,3 +1,2 @@
 export OSP_GUID=5075
-export MYKEY=~/.ssh/opentlc
-export MYUSER=dpalmer-au1.ibm.com
+
