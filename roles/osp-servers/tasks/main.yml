@@ -35,6 +35,8 @@
   register: instancefloatingip
   with_dict: "{{ osp_servers }}"  
 
+- debug: var=instancefloatingip
+
 - name: Wait for server to be available
   wait_for:
     host: "{{ instancefloatingip.floating_ip.floating_ip_address }}"
