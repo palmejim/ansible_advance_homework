@@ -1,0 +1,3 @@
+export TOWER_GUID=6fdf
+export MYKEY=~/.ssh/opentlc
+export MYUSER=dpalmer-au1.ibm.com
