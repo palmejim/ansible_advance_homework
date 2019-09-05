@@ -7,8 +7,7 @@
   register: result
 
 - debug: 
-    var: item
-  with_items: "{{ result }}"
+    var: result
 
 # tasks file for osp.servers
 - name: Remove a server instance
