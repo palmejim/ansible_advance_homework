@@ -18,6 +18,7 @@
       url: http://{{ item.public_v4 }}
       method: GET
       status_code: 200
+      return_content: true
     register: webpage
     with_items: "{{ openstack_info.ansible_facts.openstack_servers }}"
     tags:
