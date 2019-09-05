@@ -11,7 +11,7 @@
 
 - name: Add host
   add_host:
-    name: "{{ item.name }}"
+    name: "{{ item.public_v4 }}"
     group: 
       - "{{ item.metadata.group }}"
       - "{{ item.metadata.deployment_name }}"
