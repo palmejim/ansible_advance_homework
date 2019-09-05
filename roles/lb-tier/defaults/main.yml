@@ -1,2 +1,4 @@
 ---
 # defaults file for lb-tier
+
+proxy_port: 8080
