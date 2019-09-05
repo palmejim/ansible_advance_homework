@@ -36,7 +36,8 @@
   with_dict: "{{ osp_servers }}"
  
 - debug: 
-    var: instancefloatingip12
+    var: item.floating_ip.floating_ip_address
+    with_items: "{{ instancefloatingip12.results }}"
 
 - name: Wait for server to be available
   wait_for:
