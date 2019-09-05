@@ -15,12 +15,11 @@
 
   - name: Curl website
     uri:
-      # url: https://{{ item.public_v4 }}
-      url: https://{{ inventory_hostname }}
+      url: https://{{ item.public_v4 }}
       method: GET
       status_code: 200
     register: webpage
-    # with_items: "{{ openstack_info.ansible_facts.openstack_servers }}"
+    with_items: "{{ openstack_info.ansible_facts.openstack_servers }}"
     tags:
       - osp.smoke
 
