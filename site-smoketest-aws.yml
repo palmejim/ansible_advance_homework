@@ -2,9 +2,9 @@
   gather_facts: false
 
   tasks:
-  - name: Use Uri module for wrting smoke test.
+  - name: Use Uri module for writing smoke test.
     uri:
-      url: https://{{ item }}/
+      url: http://{{ item }}/
       method: GET
       status_code: 200
       return_content: true
